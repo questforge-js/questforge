@@ -156,7 +156,7 @@ QuestForge.prototype.Character.prototype = {
 		}
 		else if (this.hp * 4 <= this.stats.maxHp) {
 			// Weak.
-			return 4;
+			return 7;
 		}
 		
 		// Normal.
